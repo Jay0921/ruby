@@ -27,5 +27,8 @@ end
 Service.ancestors
 # [Service, Object, PP::ObjectMixin, Kernel, BasicObject]
 
-Service.log('Hello, world!')
-# Logging: Hello, world!
+Service.test
+# This is a test
+
+Service.new.debug
+# Debugging...
